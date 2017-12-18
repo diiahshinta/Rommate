@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_refresh" type="id" />
+    <item name="List_item_forecast_textview" type="id" />
+    <item name="container" type="id" />
+    <item name="action_settings" type="id" />
+    <item name="listview_forecast" type="id" />
+</resources>
