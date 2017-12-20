@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/nestedScrollView"
     tools:context="mobile.ap.rommate.AkunActivity"
-    android:background="@drawable/BG1">
+    android:background="@drawable/bg1">
 
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"

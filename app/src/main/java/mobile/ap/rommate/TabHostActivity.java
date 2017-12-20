@@ -6,6 +6,8 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.TabHost;
 
+import mobile.ap.rommate.Recycle.HomeActivity;
+
 public class TabHostActivity extends TabActivity {
 
     @Override

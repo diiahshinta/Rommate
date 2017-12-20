@@ -4,11 +4,22 @@
     android:id="@+id/activity_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background3"
-    tools:context="mobile.ap.rommate.HomeActivity">
+    android:background="@drawable/bg2"
+    tools:context="mobile.ap.rommate.Recycle.HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <include layout="@layout/toolbar"
+        <include layout="@layout/toolbar"
         android:layout_height="wrap_content"
         android:layout_width="match_parent" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/venues_recycler_view"
+            android:scrollbars="vertical"/></LinearLayout>
+
 
 </RelativeLayout>

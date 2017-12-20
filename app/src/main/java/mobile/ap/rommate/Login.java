@@ -15,6 +15,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import mobile.ap.rommate.Recycle.HomeActivity;
+
 public class Login extends AppCompatActivity{
 
     private final AppCompatActivity activity = Login.this;

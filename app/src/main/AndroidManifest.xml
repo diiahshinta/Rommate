@@ -32,8 +32,9 @@
             android:name=".TabHostActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".HomeActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:name=".Recycle.HomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+        </activity>
         <activity
             android:name=".WishlistActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
