@@ -3,6 +3,7 @@ package mobile.ap.rommate.Recycle;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.widget.Toast;
 import com.android.volley.*;
 import com.android.volley.toolbox.JsonObjectRequest;
@@ -50,6 +51,8 @@ public class MainControllerImpl implements MainController {
                     venuesJson.getString("name"),
                     venuesJson.getJSONObject("location").getString("address")
                 ));
+
+                  Log.i("sesuatu", venuesJson.getString("name"));
               }
             } catch (JSONException e) {
               venuesList.clear();
