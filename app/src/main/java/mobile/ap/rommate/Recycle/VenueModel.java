@@ -7,7 +7,6 @@ public class VenueModel {
 
   private String venueName;
   private String venueAddress;
-  private final static String venueIconSize = "64";
 
   public VenueModel(String venueName, String venueAddress) {
     this.venueName = venueName;
