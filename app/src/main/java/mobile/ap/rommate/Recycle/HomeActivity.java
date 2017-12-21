@@ -1,5 +1,4 @@
 package mobile.ap.rommate.Recycle;
-
 import android.app.SearchManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,7 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         venuesList = new ArrayList<>();
-        mainController = new MainControllerImplement();
+        mainController = new MainControllerImpl();
 
         RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.venues_recycler_view);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
@@ -66,5 +65,4 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
         return true;
-    }
-}
+    }}

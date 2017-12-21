@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface MainController {
 
-    void getVenuesData(String area, final List venuesList, final RecyclerView.Adapter venuesRecyclerAdapter, Context mainContext);
+  void getVenuesData(String area, final List venuesList, final RecyclerView.Adapter venuesRecyclerAdapter, Context mainContext);
 }

@@ -2,8 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="10dp">
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:background="#20000000"
@@ -89,14 +88,13 @@
                         android:layout_width="35dp"
                         android:layout_height="20dp"
                         android:id="@+id/rating"
-                        android:src="@drawable/ntclear"/>
+                        android:src="@drawable/rating"/>
 
                     <TextView
                         android:layout_width="35dp"
                         android:layout_height="match_parent"
-                        android:text="4/5"
                         android:id="@+id/venue_rating"
-                        android:textAlignment="textEnd"/>
+                        android:textAlignment="textStart"/>
 
                 </LinearLayout>
 
